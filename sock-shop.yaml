@@ -216,7 +216,7 @@ metadata:
   name: catalogue
   namespace: sock-shop
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: sock-shop
@@ -958,4 +958,3 @@ spec:
         env:
           - name: URL
             value: 'http://front-end.sock-shop.svc.cluster.local:80'
-            
